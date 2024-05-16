@@ -1,0 +1,5 @@
+Ons project zal een turtle bevatten die vanzelf gebouwen voor je bouwt. 
+Je kan met de code aangeven, per laag, welke blokken je wilt gebruiken. Dit wordt vervolgens naar de turtle gestuurd en op die manier kan je gemakkelijk gebouwen maken. De blauwprint wordt automatisch naar de turtle gestuurd en je kan de snelheid van de turtle aanpassen. 
+Ook creeert de turtle zelf de blokken, waardoor je ongelimiteerd bezig kan zijn.
+Peripherals = mining turtle
+Blokken: Computer en building blocks 
