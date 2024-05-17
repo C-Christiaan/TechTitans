@@ -1,17 +1,51 @@
-# TechTitans
-CraftOS building turtle
+Overzicht
+Dit script is geschreven voor het automatiseren van bouwprocessen in Minecraft met behulp van een Turtle, een robot van het ComputerCraft-mod. Het script stuurt de Turtle aan om een structuur te bouwen op basis van vooraf gedefinieerde lagen. De communicatie met de Turtle gebeurt via het Rednet-protocol.
 
+Vereisten
+Minecraft met de ComputerCraft-mod
+Een Turtle (turtle)
+Een Computer voor het sturen van chatcommando's
+Rednet-modems aangesloten op de Turtle en de Computer
+Bestandstructuur
+Lagen
+De floors-tabel definieert de structuur die de Turtle gaat bouwen. Elke laag is een array van strings, waarbij elk teken een blok vertegenwoordigt, en een spatie een lege ruimte is.
 
-turtle die bouwt huizen dmv een chatcommand. 
-In de computer moet je per laag aangeven welke op welke plek welke blok moet komen.
-Voorbeeld:
-//laag 1
-{'1111111',
- '1111111',
- '1111111',}
+Functies
+debug(message): Print debug-informatie.
+bouw(): De hoofdfunctie die de bouwlogica uitvoert.
+rednet.open("side"): Opent de Rednet-modem aan de aangegeven kant.
+Hoofdlogica
+Initialisatie:
 
-//laag 2
-{'1222221',
- '1000001',
- '1222221',}
- 
+Rednet-modem wordt geopend aan de rechterkant van de Turtle.
+floors-tabel wordt gedefinieerd met de bouwlagen.
+bouw() Functie:
+
+Turtle draait naar rechts en stijgt naar de eerste bouwlaag.
+Loopt door elke laag en bouwt de structuur door blokken te plaatsen volgens de floors-tabel.
+Keert terug naar de oorspronkelijke positie na het bouwen van elke laag.
+Communicatie:
+
+Luistert naar Rednet-berichten. Als het bericht "Build" ontvangen wordt, start de bouwfunctie.
+Opent de Rednet-modem aan de linkerkant voor chatcommando's.
+Chatcommando's:
+
+Luistert naar chatcommando's van de speler. Als het commando "Ties bouw" ontvangen wordt, wordt een Rednet-bericht "Build" uitgezonden.
+Gebruik
+Voorbereiding:
+
+Zorg ervoor dat de Turtle voldoende bouwmaterialen heeft in de juiste inventarisslots (slots komen overeen met de cijfers in de floors-tabel).
+Plaats de Turtle op de gewenste startpositie.
+Script Uitvoeren:
+
+Plaats en start de Turtle met het script.
+Plaats een Computer met een Rednet-modem.
+Start het script op de Computer.
+Bouwen Starten:
+
+Typ in de Minecraft-chat: Ties bouw. Dit zal een Rednet-bericht "Build" sturen naar de Turtle.
+De Turtle zal beginnen met bouwen volgens de gedefinieerde lagen in de floors-tabel.
+Foutenopsporing
+Plaatsing mislukt: Als de Turtle er niet in slaagt een blok te plaatsen, wordt een debug-bericht afgedrukt.
+Rednet-verbinding: Controleer of de Rednet-modems correct zijn aangesloten en geconfigureerd.
+Voorbeeld
