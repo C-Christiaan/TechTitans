@@ -1,5 +1,41 @@
-Ons project zal een turtle bevatten die vanzelf gebouwen voor je bouwt. 
-Je kan met de code aangeven, per laag, welke blokken je wilt gebruiken. Dit wordt vervolgens naar de turtle gestuurd en op die manier kan je gemakkelijk gebouwen maken. De blauwprint wordt automatisch naar de turtle gestuurd en je kan de snelheid van de turtle aanpassen. 
-Ook creeert de turtle zelf de blokken, waardoor je ongelimiteerd bezig kan zijn.
-Peripherals = mining turtle, wireless modem en chatbox
-Blokken: Computer, Chatbox, Mining turtle en building blocks 
+#Projectplan voor Project Titan
+
+##Beschrijving
+
+###Samenvatting: Project Titan is een Minecraft-automatiseringsproject waarbij een turtle automatisch gebouwen bouwt op basis van door de gebruiker gedefinieerde blauwdrukken. Gebruikers kunnen per laag aangeven welke blokken gebruikt moeten worden. De turtle kan blokken creëren en de snelheid van de turtle kan worden aangepast.
+Doel: Het doel van Project Titan is om het bouwen van complexe structuren in Minecraft te automatiseren en te vereenvoudigen, waardoor gebruikers tijd besparen en creativiteit kunnen uiten zonder beperkingen.
+Categorie: Automatisering in Minecraft
+
+Functies
+Automatische Gebouwenbouw
+Beschrijving: De turtle bouwt automatisch gebouwen volgens een vooraf gedefinieerde blauwdruk.
+Nuttig: Bespaart tijd en moeite voor spelers bij het bouwen van grote of complexe structuren.
+Blauwdruk Overdracht
+Beschrijving: Gebruikers kunnen blauwdrukken definiëren en deze worden automatisch naar de turtle gestuurd.
+Nuttig: Maakt het gemakkelijk om gedetailleerde bouwplannen te implementeren zonder handmatige invoer voor elke stap.
+Laag-per-Laag Specificatie
+Beschrijving: Gebruikers kunnen per laag aangeven welke blokken gebruikt moeten worden.
+Nuttig: Biedt gedetailleerde controle over het bouwproces en maakt het mogelijk om complexe patronen te creëren.
+Blokken Creatie
+Beschrijving: De turtle kan zelf de benodigde bouwblokken creëren.
+Nuttig: Verwijdert beperkingen op basis van de beschikbaarheid van materialen, waardoor gebruikers ongelimiteerd kunnen bouwen.
+Snelheidsaanpassing
+Beschrijving: De snelheid van de turtle kan worden aangepast door de gebruiker.
+Nuttig: Geeft gebruikers de mogelijkheid om de bouwsnelheid te optimaliseren op basis van hun voorkeuren of prestatievereisten.
+Impact
+Community Hulp: Project Titan helpt spelers tijd te besparen en maakt het bouwen van complexe structuren toegankelijker, zelfs voor beginnende spelers.
+Scenario's:
+Grote Bouwprojecten: Voor grote steden of kastelen kan de turtle helpen om de bouwtijd aanzienlijk te verkorten.
+Creatieve Uitingen: Spelers kunnen ingewikkelde kunstwerken of architectonische meesterwerken creëren zonder zich zorgen te maken over de beschikbaarheid van materialen of bouwtijd.
+Onderwijs: Leraren kunnen het project gebruiken om programmeerconcepten en automatisering uit te leggen in een speelse omgeving.
+Scope
+Wat Project Titan wel zal doen:
+
+Gebouwen automatisch bouwen op basis van gedefinieerde blauwdrukken.
+Blauwdrukken per laag ontvangen en implementeren.
+Blokken creëren om het bouwproces te ondersteunen.
+Snelheid van de turtle aanpasbaar maken.
+Wat Project Titan niet zal doen:
+
+Niet zorgen voor automatische landaanpassing of terreinbeheer.
+Geen integratie met andere mods buiten ComputerCraft.
