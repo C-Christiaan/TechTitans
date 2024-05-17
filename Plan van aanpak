@@ -9,7 +9,7 @@ Categorie: Automatisering in Minecraft
 Functies
 Automatische Gebouwenbouw
 Beschrijving: De turtle bouwt automatisch gebouwen volgens een vooraf gedefinieerde blauwdruk.
-Nuttig: Bespaart tijd en moeite voor spelers bij het bouwen van grote of complexe structuren.
+
 Blauwdruk Overdracht
 Beschrijving: Gebruikers kunnen blauwdrukken definiëren en deze worden automatisch naar de turtle gestuurd.
 Nuttig: Maakt het gemakkelijk om gedetailleerde bouwplannen te implementeren zonder handmatige invoer voor elke stap.
@@ -33,8 +33,7 @@ Wat Project Titan wel zal doen:
 
 Gebouwen automatisch bouwen op basis van gedefinieerde blauwdrukken.
 Blauwdrukken per laag ontvangen en implementeren.
-Blokken creëren om het bouwproces te ondersteunen.
-Snelheid van de turtle aanpasbaar maken.
+
 Wat Project Titan niet zal doen:
 
 Niet zorgen voor automatische landaanpassing of terreinbeheer.
