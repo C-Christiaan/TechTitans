@@ -36,11 +36,24 @@ Voorbereiding:
 
 Zorg ervoor dat de Turtle voldoende bouwmaterialen heeft in de juiste inventarisslots (slots komen overeen met de cijfers in de floors-tabel).
 Plaats de Turtle op de gewenste startpositie.
-Script Uitvoeren:
+# Script Uitvoeren:
 
-Plaats en start de Turtle met het script.
-Plaats een Computer met een Rednet-modem.
-Start het script op de Computer.
+## turtle
+Open je turtle en run:
+wget https://raw.githubusercontent.com/C-Christiaan/TechTitans/main/house.lua?token=GHSAT0AAAAAACSHJQ5E2BEM6XRGGGX7PCR2ZSHIVJA
+en
+wget https://raw.githubusercontent.com/C-Christiaan/TechTitans/main/startupturtle.lua?token=GHSAT0AAAAAACSHJQ5EKCJI63CFF6ARF4GMZSHIV2A startup.lua
+als het goed is zijn nu beide scripts geinstalleerd.
+nu hoef je aleen nog maar "reboot" typen en de turtle is klaar.
+
+## Chatbox en computer
+Zorg ervoor dat je een chatbox achter de computer plaatst en een wireless modem aan de linkerkant van de computer.
+nu moet je op de computer 3 commando's uitvoeren:
+wget https://raw.githubusercontent.com/C-Christiaan/TechTitans/main/startup.lua?token=GHSAT0AAAAAACSHJQ5E2IOWUPX6JOJ76HF4ZSHIZGA
+en
+wget https://raw.githubusercontent.com/C-Christiaan/TechTitans/main/listener.lua?token=GHSAT0AAAAAACSHJQ5EQQO7NTXJ2EBJIMQEZSHI3MA
+en als laatst 
+reboot
 Bouwen Starten:
 
 Typ in de Minecraft-chat: Ties bouw. Dit zal een Rednet-bericht "Build" sturen naar de Turtle.
