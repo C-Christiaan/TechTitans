@@ -39,19 +39,20 @@ Plaats de Turtle op de gewenste startpositie.
 # Script Uitvoeren:
 
 ## turtle
+zorg ervoor dat er in de bovenste slot van de turtle een pickaxe zit en onderin een wireless modem
 Open je turtle en run:
-wget https://raw.githubusercontent.com/C-Christiaan/TechTitans/main/house.lua?token=GHSAT0AAAAAACSHJQ5E2BEM6XRGGGX7PCR2ZSHIVJA
+"wget https://raw.githubusercontent.com/C-Christiaan/TechTitans/main/house.lua?token=GHSAT0AAAAAACSHJQ5E2BEM6XRGGGX7PCR2ZSHIVJA"
 en
-wget https://raw.githubusercontent.com/C-Christiaan/TechTitans/main/startupturtle.lua?token=GHSAT0AAAAAACSHJQ5EKCJI63CFF6ARF4GMZSHIV2A startup.lua
+"wget https://raw.githubusercontent.com/C-Christiaan/TechTitans/main/startupturtle.lua?token=GHSAT0AAAAAACSHJQ5EKCJI63CFF6ARF4GMZSHIV2A startup.lua"
 als het goed is zijn nu beide scripts geinstalleerd.
 nu hoef je aleen nog maar "reboot" typen en de turtle is klaar.
 
 ## Chatbox en computer
 Zorg ervoor dat je een chatbox achter de computer plaatst en een wireless modem aan de linkerkant van de computer.
 nu moet je op de computer 3 commando's uitvoeren:
-wget https://raw.githubusercontent.com/C-Christiaan/TechTitans/main/startup.lua?token=GHSAT0AAAAAACSHJQ5E2IOWUPX6JOJ76HF4ZSHIZGA
+"wget https://raw.githubusercontent.com/C-Christiaan/TechTitans/main/startup.lua?token=GHSAT0AAAAAACSHJQ5E2IOWUPX6JOJ76HF4ZSHIZGA"
 en
-wget https://raw.githubusercontent.com/C-Christiaan/TechTitans/main/listener.lua?token=GHSAT0AAAAAACSHJQ5EQQO7NTXJ2EBJIMQEZSHI3MA
+"wget https://raw.githubusercontent.com/C-Christiaan/TechTitans/main/listener.lua?token=GHSAT0AAAAAACSHJQ5EQQO7NTXJ2EBJIMQEZSHI3MA"
 en als laatst 
 reboot
 Bouwen Starten:
